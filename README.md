@@ -17,7 +17,19 @@ Ability to pass the input and output file paths as input arguments to the jar ex
 5. run the $`java` `/path/../target/PizzaApp=1.2.jar` `com.venkat.java.App` `/path/../sample_data.txt` `/path/../output_data.txt`
 6. the human readable date-time with the pizza type will be written to the output file.
 
-###Results produced
+##Assumptions Made
+1.Input file exists
+2.Input file contains records with columns `Order` and `Time`
+3.Time obtained from the input file is Unix Epoch Time.
+4.User is supposed to pass the arguments for the input and output file.
+
+##Design
+1. The application fetches the data from the sample text file.
+2. Reads and stores the records to a Model Object `OrderData`.
+3. Since it's easy to compare the epoch time stamps, they were sorted by comparing and later written to output file.
+
+
+###Captured Results produced
 Venkats-iMac:PizzaApp venkat$ mvn compile
 [INFO] Scanning for projects...
 [INFO]                                                                         
