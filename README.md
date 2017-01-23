@@ -2,11 +2,11 @@
 Program which reads pizza type and time it was ordered, sorts it lexicographically and converts the Epoch time to human readable date/time and writes to another file
 
 ##Completed Tasks:
-Mavenized the project
-Source code is included
-Few test cases were included due to shortage of time
-Ability to run test cases from command line with maven
-Ability to pass the input and output file paths as input arguments to the jar executable
+- Mavenized the project
+- Source code is included
+- Few test cases were included due to shortage of time
+- Ability to run test cases from command line with maven
+- Ability to pass the input and output file paths as input arguments to the jar executable
 
 
 ##How to Run?
