@@ -1,7 +1,7 @@
 # PizzaApplication
 Program which reads pizza type and time it was ordered, sorts it lexicographically and converts the Epoch time to human readable date/time and writes to another file
 
-#Completed Tasks:
+##Completed Tasks:
 Mavenized the project
 Source code is included
 Few test cases were included due to shortage of time
