@@ -18,10 +18,10 @@ Program which reads pizza type and time it was ordered, sorts it lexicographical
 6. the human readable date-time with the pizza type will be written to the output file.
 
 ##Assumptions Made
-1.Input file exists
-2.Input file contains records with columns `Order` and `Time`
-3.Time obtained from the input file is Unix Epoch Time.
-4.User is supposed to pass the arguments for the input and output file.
+1. Input file exists
+2. Input file contains records with columns `Order` and `Time`
+3. Time obtained from the input file is Unix Epoch Time.
+4. User is supposed to pass the arguments for the input and output file.
 
 ##Design
 1. The application fetches the data from the sample text file.
